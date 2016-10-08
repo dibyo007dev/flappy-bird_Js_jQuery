@@ -113,3 +113,17 @@ to{ transform: translateX(-1000px)  scale(0.2)}
   top: 320px;
   left: 170px;
 }
+
+#ground{
+  position: absolute;
+  top: 250px;
+  left: 0;
+  animation:  moveit 110s linear forwards;
+}
+
+@keyframes moveit {
+
+  from {transform: translateX(0)}
+  to {transform: translateX(-28046px)}
+
+}
