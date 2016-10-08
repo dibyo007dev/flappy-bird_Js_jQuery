@@ -49,8 +49,8 @@ box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
 
 
 @keyframes moveback {
-from{ transform: traslateX(-90px) }
-to{ transform: translateX(-200px) }
+from{ transform: traslateX(-90px)  scale(0.2)}
+to{ transform: translateX(-400px)  scale(0.2)}
 }
 
 
@@ -66,7 +66,7 @@ to{ transform: translateX(-200px) }
   top: -70px;
   left: -90px;
 
-  animation:  moveback 40s linear infinite;
+  animation:  moveback 4s linear infinite;
 
 }
 
@@ -76,7 +76,7 @@ to{ transform: translateX(-200px) }
   top: 30px;
   left: 50px;
 
-  animation:  moveback 40s linear infinite;
+  animation:  moveback 4s linear infinite;
 }
 #back2 {
   transform: scale(0.2);
@@ -84,7 +84,7 @@ to{ transform: translateX(-200px) }
   top: -80px;
   left: 170px;
 
-  animation:  moveback 40s linear infinite;
+  animation:  moveback 4s linear infinite;
 }
 
 #start-game{
