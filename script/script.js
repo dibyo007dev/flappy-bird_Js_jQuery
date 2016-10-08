@@ -7,11 +7,14 @@ $(function() {
   });
 
 
- $("body").keypress(function(){
+ $(window).keypress(function() {
          // jump function -----------
-      
+      $("#dog").css("animation", "jump 0.5s linear both");
+
 
      });
+
+     $("#dog").css("animation","");
 
 
 

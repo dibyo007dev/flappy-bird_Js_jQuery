@@ -13,7 +13,7 @@ body{
   top: 20px;
 }
 
-img{
+#logo{
   position: absolute;
   top: 75px;
 }
@@ -55,9 +55,10 @@ to{ transform: translateX(-1000px)  scale(0.2)}
 
 
 #dog {
-
   position: absolute;
   top: 270px;
+
+
 }
 
 #back {
@@ -111,14 +112,14 @@ to{ transform: translateX(-1000px)  scale(0.2)}
   transform: scale(0.5);
   position: absolute;
   top: 320px;
-  left: 170px;
+  left: 95px;
 }
 
 #ground{
   position: absolute;
-  top: 250px;
+  top: 325px;
   left: 0;
-  animation:  moveit 110s linear forwards;
+  animation:  moveit 110s ease forwards;
 }
 
 @keyframes moveit {
@@ -126,4 +127,11 @@ to{ transform: translateX(-1000px)  scale(0.2)}
   from {transform: translateX(0)}
   to {transform: translateX(-28046px)}
 
+}
+
+@keyframes jump {
+
+    0%{ top: 270px }
+    50%{ top: 150px }
+    100%{ top: 270px }
 }
