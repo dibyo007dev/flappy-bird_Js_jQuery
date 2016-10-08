@@ -38,11 +38,21 @@ box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
   left: 600px;
   top: 30px;
 
+
   -webkit-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
   box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
 
+  overflow: hidden;
+
 }
+
+
+@keyframes moveback {
+from{ transform: traslateX(-90px) }
+to{ transform: translateX(-200px) }
+}
+
 
 #dog {
 
@@ -56,6 +66,7 @@ box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
   top: -70px;
   left: -90px;
 
+  animation:  moveback 40s linear infinite;
 
 }
 
@@ -64,12 +75,16 @@ box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
   position: absolute;
   top: 30px;
   left: 50px;
+
+  animation:  moveback 40s linear infinite;
 }
 #back2 {
   transform: scale(0.2);
   position: absolute;
   top: -80px;
   left: 170px;
+
+  animation:  moveback 40s linear infinite;
 }
 
 #start-game{
