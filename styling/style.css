@@ -37,10 +37,45 @@ box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
   position: relative;
   left: 600px;
   top: 30px;
+
+  -webkit-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+
 }
 
 #dog {
 
   position: absolute;
   top: 270px;
+}
+
+#back {
+  transform: scale(0.2);
+  position: absolute;
+  top: -70px;
+  left: -90px;
+
+
+}
+
+#back1 {
+  transform: scale(0.2);
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+#back2 {
+  transform: scale(0.2);
+  position: absolute;
+  top: -80px;
+  left: 170px;
+}
+
+#start-game{
+  cursor: pointer;
+  transform: scale(0.5);
+  position: absolute;
+  top: 320px;
+  left: 170px;
 }
