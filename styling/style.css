@@ -1,0 +1,33 @@
+body{
+  background: lightgrey;
+}
+
+.head{
+  text-align: right;
+  margin: 40px;
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+
+img{
+  position: absolute;
+  top: 75px;
+}
+
+#black{
+  position: relative;
+  height: 10%;
+  background: black;
+  width: 100%;
+
+-webkit-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+}
+
+.navl{
+}
