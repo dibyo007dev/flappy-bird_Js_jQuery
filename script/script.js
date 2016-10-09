@@ -14,7 +14,7 @@ $(function() {
 
      });
 
-     $("#dog").css("animation","");
+     $("#dog").css("animation"," ");
 
 
 
