@@ -1,0 +1,40 @@
+body{
+  background-color: #696969;
+}
+
+.container{
+  text-align: center;
+}
+
+#doggy{
+  position: absolute;
+
+}
+.container{
+  background: white;
+  border-radius: 10px;
+  top: 195px;
+  padding-top: 10px;
+  width: 600px;
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  left: 370px;
+}
+
+#doggy{
+  position: absolute;
+  left: 550px;
+}
+
+#pop-up {
+  position: absolute;
+  top: 3px;
+ animation: drop 3s ease forwards;
+
+}
+
+@keyframes drop {
+  0%{opacity: 0}
+  70%{transform: translateY(50px)}
+  100%{transform: translateY(3px); opacity: 1;}
+}

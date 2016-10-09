@@ -7,7 +7,7 @@ $(function() {
   });
 
 
- $(window).keypress(function() {
+     $(window).keypress(function() {
          // jump function -----------
       $("#dog").css("animation", "jump 0.5s linear both");
 
@@ -15,7 +15,5 @@ $(function() {
      });
 
      $("#dog").css("animation"," ");
-
-
 
 });
