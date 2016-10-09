@@ -26,5 +26,15 @@ $(function() {
 
      });
 
+     // for obstacles .....
+
+     setTimeout(
+
+       function() {
+
+         
+
+       },1500);
+
 
 });

@@ -151,3 +151,9 @@ to{ transform: translateX(-1000px)  scale(0.2)}
   font-family: 'Amatic SC', cursive;
 
 }
+
+#pipe{
+  position: absolute;
+  bottom: 140px;
+  left: 600px;
+}
