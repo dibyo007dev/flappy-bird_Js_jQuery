@@ -15,5 +15,4 @@ $(function() {
      });
 
      $("#dog").css("animation"," ");
-
 });

@@ -135,3 +135,19 @@ to{ transform: translateX(-1000px)  scale(0.2)}
     50%{ top: 150px }
     100%{ top: 270px }
 }
+
+#space{
+  position: absolute;
+  top: 500px;
+  transform: scale(0.5);
+  left: -50px;
+}
+
+#space span {
+  position: absolute;
+  top: 10px;
+  left: 550px;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  
+}
