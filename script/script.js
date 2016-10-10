@@ -28,13 +28,11 @@ $(function() {
 
      // for obstacles .....
 
-     setTimeout(
-
-       function() {
-
-         
-
-       },1500);
+      var pipeco = $("#pipe").position().left();
+    if ($ ("#dog").position().right() < pipeco+"100px")
+        {
+          $("pipe").remove();
+        }
 
 
 });
