@@ -34,9 +34,9 @@ box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
   width: 700px;
   background-color: lightblue;
   border-radius: 5px;
-  position: relative;
+  position: absolute;
   left: 600px;
-  top: 30px;
+  top: 200px;
 
 
   -webkit-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
@@ -57,6 +57,7 @@ to{ transform: translateX(-1000px)  scale(0.2)}
 #dog {
   position: absolute;
   top: 285px;
+  left: 10px;
 
 
 }
@@ -139,7 +140,7 @@ to{ transform: translateX(-1000px)  scale(0.2)}
 @keyframes out {
 
 0%{ top: 270px }
-100%{ top: 260px}  
+100%{ top: 260px}
 
 }
 #space{
