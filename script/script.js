@@ -70,9 +70,8 @@ $(function() {
 
        }, 500);
 
-       */console.log(doggy.right);
+       */
 
   });
 
-console.log(doggy.right);
 });
