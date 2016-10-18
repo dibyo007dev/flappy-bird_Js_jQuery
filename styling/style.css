@@ -162,131 +162,134 @@ to{ transform: translateX(-1000px)  scale(0.2)}
 
 /* Obstacle listing  */
 
-#ground .pipe{
+#ground .pipe:nth-child(0){
   position: absolute;
   bottom: 140px;
   left: 700px;
 }
-
-/*
-#ground .pipe:nth-child(2){
+#ground .pipe:nth-child(1){
   position: absolute;
   bottom: 175px;
   left: 1200px;
 }
-#ground .pipe:nth-child(3){
+#ground .pipe:nth-child(2){
   position: absolute;
   bottom: 175px;
   left: 1900px;
 }
-#ground .pipe:nth-child(4){
+#ground .pipe:nth-child(3){
   position: absolute;
   bottom: 175px;
   left: 2200px;
 }
-#ground .pipe:nth-child(5){
+#ground .pipe:nth-child(4){
   position: absolute;
   bottom: 175px;
   left: 2900px;
 }
-#ground .pipe:nth-child(6){
+#ground .pipe:nth-child(5){
   position: absolute;
   bottom: 175px;
   left: 3700px;
 }
-#ground .pipe:nth-child(7){
+#ground .pipe:nth-child(6){
   position: absolute;
   bottom: 175px;
   left: 4000px;
 }
-#ground .pipe:nth-child(8){
+#ground .pipe:nth-child(7){
   position: absolute;
   bottom: 175px;
   left: 4400px;
 }
-#ground .pipe:nth-child(9){
+#ground .pipe:nth-child(8){
   position: absolute;
   bottom: 175px;
   left: 5600px;
 }
-#ground .pipe:nth-child(10){
+#ground .pipe:nth-child(9){
   position: absolute;
   bottom: 175px;
   left: 6900px;
 }
-#ground .pipe:nth-child(11){
+#ground .pipe:nth-child(10){
   position: absolute;
   bottom: 175px;
   left: 7400px;
 }
-#ground .pipe:nth-child(12){
+#ground .pipe:nth-child(11){
   position: absolute;
   bottom: 175px;
   left: 9000px;
 }
-#ground .pipe:nth-child(13){
+#ground .pipe:nth-child(12){
   position: absolute;
   bottom: 175px;
   left: 10000px;
 }
-#ground .pipe:nth-child(14){
+#ground .pipe:nth-child(13){
   position: absolute;
   bottom: 175px;
   left: 10300px;
 }
-#ground .pipe:nth-child(15){
+#ground .pipe:nth-child(14){
   position: absolute;
   bottom: 175px;
   left: 10900px;
 }
-#ground .pipe:nth-child(16){
+#ground .pipe:nth-child(15){
   position: absolute;
   bottom: 175px;
   left: 11300px;
 }
-#ground .pipe:nth-child(17){
+#ground .pipe:nth-child(16){
   position: absolute;
   bottom: 175px;
   left: 11900px;
 }
-#ground .pipe:nth-child(18){
+#ground .pipe:nth-child(17){
   position: absolute;
   bottom: 175px;
   left: 12700px;
 }
-#ground .pipe:nth-child(19){
+#ground .pipe:nth-child(18){
   position: absolute;
   bottom: 175px;
   left: 13000px;
 }
-#ground .pipe:nth-child(20){
+#ground .pipe:nth-child(19){
   position: absolute;
   bottom: 175px;
   left: 14000px;
 }
-#ground .pipe:nth-child(21){
+#ground .pipe:nth-child(20){
   position: absolute;
   bottom: 175px;
   left: 14900px;
 }
-#ground .pipe:nth-child(22){
+#ground .pipe:nth-child(21){
   position: absolute;
   bottom: 175px;
   left: 16000px;
 }
-#ground .pipe:nth-child(23){
+#ground .pipe:nth-child(22){
   position: absolute;
   bottom: 175px;
   left: 16700px;
 }
-#ground .pipe:nth-child(25){
+#ground .pipe:nth-child(23){
+  position: absolute;
+  bottom: 175px;
+  left: 17300px;
+
+}
+#ground .pipe:nth-child(24){
   position: absolute;
   bottom: 175px;
   left: 17300px;
 
 }
 
-*/
 
 #game-screen2{
   height: 450px;
@@ -334,6 +337,7 @@ to{ transform: translateX(-1000px)  scale(0.2)}
   left: 500px;
   top: 300px;
   transform: scale(0.5);
+  cursor: pointer;
 }
 
 #game-screen2 h3{

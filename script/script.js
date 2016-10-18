@@ -10,16 +10,16 @@ $(function() {
 
     var count=0;
 
-
+    var pipeno=0;
 
     $(window).keypress(function() {
 
 
 
       var doggy = $("#dog").offset();
-      var obs = $(".pipe").offset();
+      var obs = $(".pipe").eq(pipeno).offset();
       var dogright = doggy.left + $("#dog").width();
-      var obsright = obs.left + $(".pipe").width();
+      var obsright = obs.left + $(".pipe").eq(pipeno).width();
 
         // jump function -----------
         console.log("keypressed");
@@ -28,17 +28,21 @@ $(function() {
         console.log("doggy's position :"+ dogright);
         console.log("Obsticle's position :"+obs.left);
         console.log("Obsticle's position :"+obsright);
+        console.log("selected pipe number :"+pipeno);
+        console.log("Points Count :"+count);
 
-        if ( (dogright <= obs.left - 2 ) && (dogright <= obs.left + 2)  ) {
+        if ( (dogright <= obs.left - 2 ) && (dogright <= obs.left)  ) {
             // success jump
 
             $("#dog").css("animation", "jump 0.5s linear both");
             setTimeout(
                 function() {
                     $("#dog").css("animation", "none");
+                    count++;
                 //    $(".pipe").remove();
                 }, 500);
-            ++count;
+
+            pipeno++;
         }
 
         else if( dogright < obs.left  ){
@@ -52,7 +56,7 @@ $(function() {
 
               }, 500);
 
-        } else if ((dogright > obs.left + 2) && (dogright < obsright + 5) ) {
+        } else if ((dogright > obs.left) && (dogright < obsright + 5) ) {
             // false jump
 
             $("#dog").css("animation", "out 0.1s linear forwards");
