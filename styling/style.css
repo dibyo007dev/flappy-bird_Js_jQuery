@@ -144,7 +144,7 @@ to{ transform: translateX(-1000px)  scale(0.2)}
 
 }
 #space{
-  position: absolute;
+  position: fixed;
   top: 500px;
   transform: scale(0.5);
   left: -50px;
@@ -162,12 +162,13 @@ to{ transform: translateX(-1000px)  scale(0.2)}
 
 /* Obstacle listing  */
 
-#ground .pipe:nth-child(1){
+#ground .pipe{
   position: absolute;
-  bottom: 175px;
+  bottom: 140px;
   left: 700px;
 }
 
+/*
 #ground .pipe:nth-child(2){
   position: absolute;
   bottom: 175px;
@@ -278,10 +279,36 @@ to{ transform: translateX(-1000px)  scale(0.2)}
   bottom: 175px;
   left: 16700px;
 }
-
 #ground .pipe:nth-child(25){
   position: absolute;
   bottom: 175px;
   left: 17300px;
 
+}
+
+*/
+
+#game-screen2{
+  height: 450px;
+  width: 700px;
+  background-color: grey;
+  border-radius: 5px;
+  position: fixed;
+  left: 600px;
+  top: 200px;
+
+
+  -webkit-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 25px -3px rgba(0,0,0,0.75);
+
+  overflow: hidden;
+
+}
+
+#gover{
+  height: 300px;
+  position: relative;
+  left: 50px;
+  top: 10px;
 }
