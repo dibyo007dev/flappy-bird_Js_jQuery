@@ -11,14 +11,14 @@ $(function() {
     $(window).keypress(function() {
         // jump function -----------
         console.log("keypressed");
-        var doggy = $("#dog").position();
-        var obs = $(".pipe").position();
+        var doggy = $("#dog").offset();
+        var obs = $(".pipe").offset();
         var dogright = doggy.left + $("#dog").width();
 
         console.log("doggy's position :"+ dogright);
         console.log("Obsticle's position :"+obs.left);
 
-        if (dogright - obs.left >= 0) {
+        if (dogright - obs.left <= 0) {
             // success jump
             $("#dog").css("animation", "jump 0.5s linear both");
             setTimeout(
@@ -27,7 +27,7 @@ $(function() {
                     $(".pipe").remove();
                 }, 500);
             ++count;
-        } else if (dogright - obs.left < 0) {
+        } else if (dogright - obs.left > 0) {
             // false jump
             $("#dog").css("animation", "out 0.1s linear forwards");
             // stop whole animation
@@ -43,10 +43,9 @@ $(function() {
 
            // alert("your game is over and your point is : " + count);
 
-           $("#game-screen2").fadeIn(300);
+            $("#game-screen2").delay(700).fadeIn(200);
 
-           $("#game-screen2 h2 span").append(count);
-
+            $("#game-screen2 h2 span").append(count);
 
         }
 

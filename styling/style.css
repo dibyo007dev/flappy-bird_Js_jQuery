@@ -120,7 +120,7 @@ to{ transform: translateX(-1000px)  scale(0.2)}
   position: absolute;
   top: 325px;
   left: 0;
-  animation:  moveit 110s linear forwards;
+  animation:  moveit 90s linear forwards;
 }
 
 @keyframes moveit {
@@ -339,8 +339,8 @@ to{ transform: translateX(-1000px)  scale(0.2)}
 #game-screen2 h3{
 
   position: absolute;
-  top: 290px;
-  left: 470px;
+  top: 320px;
+  left: 440px;
   font-family: 'Amatic SC' , cursive;
   font-size: 30px;
 }
