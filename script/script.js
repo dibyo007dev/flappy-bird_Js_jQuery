@@ -43,8 +43,9 @@ $(function() {
 
            // alert("your game is over and your point is : " + count);
 
-           $("#game-screen2").fadeIn();
-           
+           $("#game-screen2").fadeIn(300);
+
+           $("#game-screen2 h2 span").append(count);
 
 
         }
