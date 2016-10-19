@@ -31,7 +31,7 @@ $(function() {
         console.log("selected pipe number :"+pipeno);
         console.log("Points Count :"+count);
 
-        if ( (dogright <= obs.left - 2 ) && (dogright <= obs.left)  ) {
+        if ( (dogright <= obs.left - 4 ) && (dogright <= obs.left)  ) {
             // success jump
 
             $("#dog").css("animation", "jump 0.5s linear both");
